@@ -1,2 +1,1 @@
-# TinDog
-TinDog-creating first personal webpage
+TinDog Starting Files

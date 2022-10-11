@@ -1,0 +1,175 @@
+/* Title */
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1,h2,h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.rotate {
+  transform: rotate(25deg);
+  width: 17%;
+  position: absolute;
+  right:25%;
+  z-index: 0;
+}
+
+/* Nav-Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-family: "Ubuntu";
+  font-size: 1.2rem;
+  padding: 0 18px;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+/* Buttons */
+
+
+.button-download {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Features and Pros */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color:white;
+  padding: 7% 15%;
+
+}
+.cta_h3{
+    font-family: "Montserrat-black";
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+.allpros {
+  margin: 2.5% 15%;
+  text-align: center;
+}
+
+.pros {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-align: center;
+  width: 90%;
+}
+
+.fa-pros {
+  font-size: 2rem;
+  text-align: center;
+  color: #ef8172;
+  margin: 5%;
+}
+
+.fa-pros:hover {
+  color: #ff4c68;
+}
+
+.p-pros {
+  color: #8f8f8f
+}
+
+/* Testimonial */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+  border: 2px solid black;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+
+
+
+/* Footer */
+#footer{
+  text-align: center;
+  background-color: #fff;
+  padding: 2rem 1rem ;
+  font-family: "Ubuntu";
+
+}
+p{
+    color: #8f8f8f;
+}
+
+
+/* Media query */
+@media (max-width: 995px) {
+.rotate{
+  transform: rotate(0deg);
+  position:static;
+  width:50%;
+}
+#title{
+  text-align: center;
+}
+}
